@@ -64,3 +64,4 @@ Simple git reference for when I forget.
 
 ## :heavy_check_mark: Correcting
 * `git commit --amend` - correct commit details in branch
+* `git revert <SHA id>` - revert changes up to commit specified by id
