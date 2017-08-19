@@ -40,3 +40,27 @@ Simple git reference for when I forget.
 ##### Windows CMD
 1. Run `copy NUL .gitignore` to create a file
 2. Run `code .gitignore` to open and edit
+
+## Tagging
+* `git tag` - check version of tag in command line
+* `git tag -a <tag name>` - write a message for a specific version of the file
+* `git log --decorate` - show the current branch and tag version
+* `git tag -d <tag name> - delete tag version
+* `git tag -a <tag name> <SHA id>` - add a tag for a specific commit by SHA id.
+
+## Branching
+* `git branch` - show current branch
+* `git branch <branch name>` - create a new branch
+* `git checkout <existing branch name>` - switch to another branch
+* `git log --oneline --decorate` - display current active branch with SHA id and commits only
+* `git branch -d <branch name>` - delete branch by name
+* `git checkout -b <branch name>` - create new branch and switch to it
+* `git checkout -b <branch name> master` - create a new branch in the same location as the master branch and switch to it
+* `git log --oneline --decorate --graph --all` - display all branches in folder
+
+## Merging
+* `git reset --hard HEAD^` - undo branch merge
+* `git merge <branch name>` - merge branch by name
+
+## Correcting
+* `git commit --amend` - correct commit details in branch
