@@ -48,7 +48,7 @@ Simple git reference for when I forget.
 * `git tag -d <tag name> - delete tag version
 * `git tag -a <tag name> <SHA id>` - add a tag for a specific commit by SHA id.
 
-## :arrow_heading_up: Branching
+## :herb: Branching
 * `git branch` - show current branch
 * `git branch <branch name>` - create a new branch
 * `git checkout <existing branch name>` - switch to another branch
@@ -58,7 +58,7 @@ Simple git reference for when I forget.
 * `git checkout -b <branch name> master` - create a new branch in the same location as the master branch and switch to it
 * `git log --oneline --decorate --graph --all` - display all branches in folder
 
-## :herb: Merging
+## :page_with_curl: Merging
 * `git reset --hard HEAD^` - undo branch merge
 * `git merge <branch name>` - merge branch by name
 
