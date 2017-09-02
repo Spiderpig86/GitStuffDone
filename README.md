@@ -65,3 +65,8 @@ Simple git reference for when I forget.
 ## :heavy_check_mark: Correcting
 * `git commit --amend` - correct commit details in branch
 * `git revert <SHA id>` - revert changes up to commit specified by id
+
+## :milky_way: Remote
+* `git remote add origin <repo url>` - add a remote url for the repository
+* `git remote set-url origin <repo url>` - set a specific url for the repository
+* `git remote -v` - check the push and pull locations
